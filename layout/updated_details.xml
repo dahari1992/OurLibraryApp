@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorNewBlue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Library Details"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:paddingBottom="50dp"
+            android:paddingTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"/>
+
+
+    </FrameLayout>
+
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/printUserDetails"-->
+        <!--android:layout_marginBottom="8dp" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_details"
+        android:textStyle="bold"
+        android:textSize="19sp"/>
+
+    <!--<EditText-->
+        <!--android:id="@+id/try12"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:gravity="left"-->
+        <!--android:inputType="textNoSuggestions"-->
+        <!--/>-->
+    <Button
+        android:id="@+id/update_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update details" />
+    <Button
+        android:id="@+id/goToMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To Menu" />
+
+
+    <Button
+        android:id="@+id/logoutUpdated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="logout " />
+
+
+
+</LinearLayout>
